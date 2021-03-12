@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pb;
+option go_package = "github.com/Fattouche/protobuf-benchmark/pb";
+
+message comp {
+    string str = 1;
+    int64 i = 2;
+    float f = 3;
+    bool b = 5;
+    bytes byte = 6;
+}
