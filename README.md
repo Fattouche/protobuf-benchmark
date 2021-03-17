@@ -14,6 +14,9 @@ goos: darwin
 goarch: amd64
 pkg: github.com/protobuf-benchmark
 cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+
+                                     Num Iterations     Time per Function Call   Memory Allocation   Rate of Memory Allocation
+
 BenchmarkMarshalJSON/Small-12            2662459               441.5 ns/op            80 B/op          1 allocs/op
 BenchmarkMarshalJSON/Medium-12           1474044               793.8 ns/op           672 B/op          2 allocs/op
 BenchmarkMarshalJSON/Large-12             247953              4315 ns/op            5250 B/op          2 allocs/op
